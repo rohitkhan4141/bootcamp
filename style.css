@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-top: 15px;
+
+
+}
+
+.header {
+    background-image: url(images/action-android-device-electronics-595804.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.logo-box {
+    float: left;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+
+.navbar {
+    float: right;
+    position: absolute;
+    top: 35px;
+    right: 20px;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+
+}
+
+li a {
+    text-decoration: none;
+    margin: 20px;
+    color: azure
+}
+
+li a:hover {
+    color: orangered;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.explore {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    color: azure;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: orangered;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}

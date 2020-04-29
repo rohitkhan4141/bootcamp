@@ -12,22 +12,21 @@
 
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
+            <!--image is moving to css -->
             <!--header of the webpage-->
-            <div class="image_slider">
+            <!-- <div class="image_slider">
                 <img src="images/action-android-device-electronics-595804.jpg" alt="">
-            </div>
+            </div> -->
             <div class="logo-box">
                 <!--logo of the website-->
-                <div class="logo-box__logo">
-                    <img src="" alt="logo">
-                </div>
+                <img src="#" alt="logo">
             </div>
 
             <!-- navigation should be inside nav element-->
             <nav class="navbar">
                 <!--nav manu of the website-->
-                <ul class="navbar__ul">
+                <ul>
                     <li><a href="">home</a></li>
                     <li><a href="">about</a></li>
                     <li><a href="">contact</a></li>
@@ -80,9 +79,9 @@
         <section class="iframe_video">
             <!--iframe section start-->
             <!--inline styling also part of css-->
-            <iframe src="https://www.youtube.com/embed/SyRHeyFdl0I" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Fav
-                song</iframe>
+            <iframe width="727" height="409" src="https://www.youtube.com/embed/AcsWdbSsYfo" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>OUR Fav
+                Place</iframe>
         </section>
         <!--iframe section end-->
 
@@ -90,24 +89,24 @@
             <!--form section start-->
             <form action="#">
                 <label for="f_name">First Name</label>
-                <input type="text" class="f_name" placeholder="Enter Your first name">
+                <input type="text" class="f_name" placeholder="Enter Your first name"><br>
 
                 <label for="l_name">Last Name</label>
-                <input type="text" class="l_name" placeholder="Enter Your last name">
+                <input type="text" class="l_name" placeholder="Enter Your last name"><br>
 
-                <label for="country">Country</label>
+                <label for="country">Enter your Country Name</label>
                 <select name="country" id="country">
                     <option value="bangladesh">bangladesh</option>
                     <option value="Usa">Usa</option>
                     <option value="Nepal">Nepal</option>
-                </select>
+                </select><br>
 
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
                 <label for="female">Female</label><br>
                 <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label>
+                <label for="other">Other</label><br>
                 <textarea name="text_area" id="message" cols="30" rows="10">message</textarea>
                 <a href="#" class="button button_submit">Submit</a>
 
