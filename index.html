@@ -20,7 +20,8 @@
             </div> -->
             <div class="logo-box">
                 <!--logo of the website-->
-                <img src="#" alt="logo">
+                <!-- <img src="#" alt="logo"> -->
+                <H3>ALPHAOMEGA</H3>
             </div>
 
             <!-- navigation should be inside nav element-->
@@ -42,19 +43,25 @@
         <!--end of the header-->
 
         <main class="main">
+            <div class="title">
+                <h1>Our Services</h1>
+            </div>
             <!--main section start-->
             <div class="our_services">
                 <div class="our_services__box1">
                     <img src="" alt="">
                     <h3>Html & CSS</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, consequuntur!</p>
                 </div>
                 <div class="our_services__box2">
                     <img src="" alt="">
                     <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, consequuntur!</p>
                 </div>
                 <div class="our_services__box3">
                     <img src="" alt="">
                     <h3>Php</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima, consequuntur!</p>
                 </div>
             </div>
         </main>
@@ -62,57 +69,78 @@
 
         <section class="about">
             <!--about section start-->
-            <aside class="about_left">
-                <div class="about_left__image_founder">
-                    <img src="images/1.jpg" alt="founder image">
-                </div>
-                <h2 class="about_left__text">Monjurul Majid</h2>
-            </aside>
-            <aside class="about_right">
-                <h2 class="about_right__head">About</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat quos maiores illo voluptate
-                    totam iusto cupiditate possimus inventore laudantium.</p>
-            </aside>
+            <div class="title_1">
+                <h2>Founder</h2>
+            </div>
+            <div class="box">
+                <aside class="about_left">
+                    <div class="about_left__image_founder">
+                        <img src="images/1.jpg" alt="founder image">
+                    </div>
+                    <h2 class="about_left__text">Monjurul Majid</h2>
+                </aside>
+                <aside class="about_right">
+                    <h2 class="about_right__head">About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugiat quos maiores illo voluptate
+                        totam iusto cupiditate possimus inventore laudantium.</p>
+                </aside>
+            </div>
         </section>
         <!--about section end-->
 
         <section class="iframe_video">
             <!--iframe section start-->
             <!--inline styling also part of css-->
-            <iframe width="727" height="409" src="https://www.youtube.com/embed/AcsWdbSsYfo" frameborder="0"
+            <div class="title-3">
+                <h1>Office Tour</h1>
+            </div>
+
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/AcsWdbSsYfo" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>OUR Fav
                 Place</iframe>
         </section>
         <!--iframe section end-->
 
         <section class="contact_form">
+
+            <div class="title-4">
+                <h1>Contact form</h1>
+            </div>
             <!--form section start-->
-            <form action="#">
-                <label for="f_name">First Name</label>
-                <input type="text" class="f_name" placeholder="Enter Your first name"><br>
+            <form action="#" class="contact">
+                <label for="f_name" class="contact_text">First Name</label>
+                <input type="text" class="contact_all" class="f_name" placeholder="Enter Your first name"><br>
 
-                <label for="l_name">Last Name</label>
-                <input type="text" class="l_name" placeholder="Enter Your last name"><br>
-
-                <label for="country">Enter your Country Name</label>
+                <label for="l_name" class="contact_text">Last Name</label>
+                <input type="text" class="contact_all" class="l_name" placeholder="Enter Your last name"><br>
+                <label for="message" class="contact_text">MESSAGE</label>
+                <textarea name="text_area" class="contact_all" id="message" cols="30" rows="10"></textarea>
+                <label for="country" class="contact_text">Enter your Country Name : </label><br>
                 <select name="country" id="country">
                     <option value="bangladesh">bangladesh</option>
                     <option value="Usa">Usa</option>
                     <option value="Nepal">Nepal</option>
                 </select><br>
-
+                <label for="radio" class="contact_text">Gender : </label><br>
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
+                <label for="male" class="radio-text">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
+                <label for="female" class="radio-text">Female</label><br>
                 <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Other</label><br>
-                <textarea name="text_area" id="message" cols="30" rows="10">message</textarea>
+                <label for="other" class="radio-text">Other</label><br>
                 <a href="#" class="button button_submit">Submit</a>
 
             </form>
 
-            <table class="table" border="2">
+
+
+        </section>
+        <!--form section end-->
+        <div class="section">
+            <div class="title-3">
+                <h1>TEAM</h1>
+            </div>
+            <table>
                 <tr>
                     <th>Name</th>
                     <th>Age</th>
@@ -120,29 +148,28 @@
                     <th>Institute</th>
                 </tr>
                 <tr>
-                    <td>rohit</td>
+                    <td>SHAJAN</td>
+                    <td>27</td>
+                    <td>2020</td>
+                    <td>AIUB</td>
+                </tr>
+                <tr>
+                    <td>ROHIT</td>
                     <td>27</td>
                     <td>2020</td>
                     <td>JU</td>
 
 
                 </tr>
+
                 <tr>
-                    <td>Sojon</td>
-                    <td>27</td>
-                    <td>2020</td>
-                    <td>AIUB</td>
-                </tr>
-                <tr>
-                    <td>Parosh</td>
+                    <td>PAROSH</td>
                     <td>27</td>
                     <td>2020</td>
                     <td>RUET</td>
                 </tr>
             </table>
-
-        </section>
-        <!--form section end-->
+        </div>
         <footer class="footer">
             <h3>Alpha Omega</h3>
             <h4>&copy;by AlphaOmega</h4>

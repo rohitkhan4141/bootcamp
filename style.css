@@ -1,11 +1,13 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* wrapper start */
 .wrapper {
-    background-color: aliceblue;
+    background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -15,12 +17,16 @@
 
 }
 
+/* wrapper end */
+
+/* header start */
 .header {
-    background-image: url(images/action-android-device-electronics-595804.jpg);
+    background-image: url(images/2.jpg);
     height: 95vh;
     background-size: cover;
     background-position: top;
     position: relative;
+
 }
 
 .logo-box {
@@ -28,6 +34,7 @@
     position: absolute;
     top: 30px;
     left: 40px;
+    color: papayawhip;
 }
 
 
@@ -87,3 +94,185 @@ li a:hover {
     width: 100%;
     padding: 10px;
 }
+
+/* wrapper end */
+
+
+/* main start */
+.main {
+    margin-top: 100px;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+.our_services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.title_1 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: orangered;
+    padding-top: 30px;
+}
+
+/* main end */
+
+/* about start */
+.about {
+    background-image: url(images/action-android-device-electronics-595804.jpg);
+    background-size: cover;
+    background-position: top;
+
+
+}
+
+.box {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about_left {
+    padding: 30px;
+
+}
+
+.about_right {
+    color: black;
+}
+
+.about_right__head {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* about end */
+/* IFRAME start */
+.iframe_video {
+    padding: 50px;
+}
+
+.title-3 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 20px;
+}
+
+/* IFRAME end */
+/* contact form start */
+
+.contact_form {
+    background-image: url(images/3.jpg);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 50px;
+}
+
+.title-4 {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: blanchedalmond;
+    padding-top: 50px;
+}
+
+.title-4:hover {
+    color: orangered;
+}
+
+.contact {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact_all {
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: blanchedalmond;
+    padding: 20px 40px;
+    outline: none;
+}
+
+.contact_text {
+    color: orangered;
+}
+
+.radio-text {
+    color: powderblue;
+}
+
+/* contact form ends */
+
+/* table starts */
+.section {
+    margin: 50px;
+}
+
+.table {
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: blanchedalmond;
+    padding: 20px 40px;
+
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+table,
+td,
+th {
+    border: 1px solid blanchedalmond;
+}
+
+
+th {
+    height: 50px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+/* table end */
+
+/* footer starts */
+.footer {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/* footer ends */
